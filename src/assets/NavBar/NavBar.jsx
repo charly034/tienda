@@ -6,9 +6,9 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>Inicio</li>
+        <li>Productos</li>
+        <li>Contacto</li>
         <li>
           <CartWidget mensaje="Bienvenido a la tienda" />
         </li>
