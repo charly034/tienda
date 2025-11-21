@@ -6,7 +6,7 @@ const ItemDetail = ({ producto }) => {
   return (
     <div className="item-detail-container">
       <img
-        src={"../public/img/" + producto.Imagen}
+        src={"/img/" + producto.Imagen}
         alt={producto.Nombre}
         className="item-detail-img"
       />
