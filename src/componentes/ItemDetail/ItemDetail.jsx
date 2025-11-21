@@ -14,7 +14,7 @@ const ItemDetail = ({ producto }) => {
       <div className="item-detail-info">
         <h2 className="item-detail-title">{producto.Nombre}</h2>
         <p className="item-detail-price">${producto.Precio}</p>
-
+        <p>{producto.Descripcion}</p>
         <button className="item-detail-button">Agregar al carrito</button>
       </div>
     </div>
