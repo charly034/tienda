@@ -1,0 +1,14 @@
+.carrito {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25%;
+}
+.carrito img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.carrito span {
+  font-size: 20px;
+}

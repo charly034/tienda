@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import "./CartWidget.css";
 
 const CartWidget = () => {
   // eslint-disable-next-line no-import-assign
-  const cartIcon = "./cart4.svg";
+  const cartIcon = "./carrito.png";
   return (
-    <div>
+    <div className="carrito">
       <Link to={"/carrito"}>
         <img src={cartIcon} alt="Cart Icon" />
       </Link>
