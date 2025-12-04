@@ -53,3 +53,41 @@
   background: #333;
   transform: scale(1.03);
 }
+
+.item-detail-contador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.item-detail-contador button {
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  background: #1f2937; /* gris oscuro elegante */
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.2s ease;
+}
+
+.item-detail-contador button:hover {
+  background: #111827;
+  transform: translateY(-2px);
+}
+
+.item-detail-contador span {
+  font-size: 20px;
+  font-weight: bold;
+  min-width: 32px;
+  text-align: center;
+  color: #111;
+}

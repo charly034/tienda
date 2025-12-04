@@ -1,15 +1,18 @@
 import { Link } from "react-router-dom";
 import "./CartWidget.css";
+import { useContext } from "react";
+import { CartContext } from "../Context/CartContext";
 
 const CartWidget = () => {
-  // eslint-disable-next-line no-import-assign
+  const Cart = useContext(CartContext);
+
   const cartIcon = "./carrito.png";
   return (
     <div className="carrito">
       <Link to={"/carrito"}>
         <img src={cartIcon} alt="Cart Icon" />
       </Link>
-      <span>0</span>
+      <span>{Cart.cantidadCarrito}</span>
     </div>
   );
 };

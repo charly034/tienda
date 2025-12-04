@@ -7,6 +7,7 @@ const MisProdutos = [
     Imagen: "camisa.jpeg",
     Descripcion:
       "Camisa clásica de algodón suave, ideal para usar en el día a día o para un look más formal.",
+    Stock: 25,
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const MisProdutos = [
     Imagen: "pantalon.jpeg",
     Descripcion:
       "Pantalón de corte recto con tela resistente y cómoda, perfecto para uso diario.",
+    Stock: 30,
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const MisProdutos = [
     Imagen: "zapato.jpeg",
     Descripcion:
       "Zapatos elegantes de cuero, ideales para eventos formales o para la oficina.",
+    Stock: 12,
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ const MisProdutos = [
     Imagen: "sombrero.jpeg",
     Descripcion:
       "Sombrero liviano y moderno, excelente para completar tu outfit y protegerte del sol.",
+    Stock: 40,
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ const MisProdutos = [
     Imagen: "campera.jpeg",
     Descripcion:
       "Campera acolchada abrigada con diseño urbano, ideal para días fríos.",
+    Stock: 18,
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ const MisProdutos = [
     Imagen: "zapatilla.jpeg",
     Descripcion:
       "Zapatillas cómodas y livianas, perfectas para caminar o uso cotidiano.",
+    Stock: 22,
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ const MisProdutos = [
     Imagen: "bufanda.jpeg",
     Descripcion:
       "Bufanda tejida suave, ideal para abrigarte con estilo en días de invierno.",
+    Stock: 50,
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ const MisProdutos = [
     Imagen: "cinturon.jpeg",
     Descripcion:
       "Cinturón de cuero reforzado, perfecto para sumar estilo y firmeza a tu outfit.",
+    Stock: 35,
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ const MisProdutos = [
     Imagen: "bota.jpeg",
     Descripcion:
       "Botas resistentes y de gran durabilidad, ideales para invierno o terrenos difíciles.",
+    Stock: 10,
   },
   {
     id: 10,
@@ -88,6 +97,7 @@ const MisProdutos = [
     Imagen: "jean.jpeg",
     Descripcion:
       "Jean slim fit clásico, cómodo y combinable para cualquier ocasión.",
+    Stock: 32,
   },
   {
     id: 11,
@@ -97,6 +107,7 @@ const MisProdutos = [
     Imagen: "gorra.jpeg",
     Descripcion:
       "Gorra regulable liviana, perfecta para uso casual y protección solar.",
+    Stock: 42,
   },
   {
     id: 12,
@@ -106,6 +117,7 @@ const MisProdutos = [
     Imagen: "sandalia.jpeg",
     Descripcion:
       "Sandalias frescas y livianas, recomendadas para verano y uso diario.",
+    Stock: 28,
   },
   {
     id: 13,
@@ -115,6 +127,7 @@ const MisProdutos = [
     Imagen: "chaleco.jpeg",
     Descripcion:
       "Chaleco acolchado térmico, ideal para combinar con buzos o remeras.",
+    Stock: 19,
   },
   {
     id: 14,
@@ -124,6 +137,7 @@ const MisProdutos = [
     Imagen: "medias.jpeg",
     Descripcion:
       "Medias de algodón suaves, transpirables y cómodas para uso diario.",
+    Stock: 60,
   },
   {
     id: 15,
@@ -133,6 +147,7 @@ const MisProdutos = [
     Imagen: "botin.jpeg",
     Descripcion:
       "Botines deportivos con suela resistente, ideales para fútbol en césped sintético.",
+    Stock: 14,
   },
   {
     id: 16,
@@ -141,6 +156,7 @@ const MisProdutos = [
     Categoria: "Ropa",
     Imagen: "remera.jpeg",
     Descripcion: "Remera básica de algodón suave ideal para uso diario.",
+    Stock: 45,
   },
   {
     id: 17,
@@ -149,6 +165,7 @@ const MisProdutos = [
     Categoria: "Abrigos",
     Imagen: "buzo.jpeg",
     Descripcion: "Buzo con capucha de frisa interior, ideal para días fríos.",
+    Stock: 20,
   },
   {
     id: 18,
@@ -157,6 +174,7 @@ const MisProdutos = [
     Categoria: "Deportivo",
     Imagen: "short.jpeg",
     Descripcion: "Short deportivo liviano, perfecto para gimnasio o running.",
+    Stock: 34,
   },
   {
     id: 19,
@@ -166,6 +184,7 @@ const MisProdutos = [
     Imagen: "boxer.jpeg",
     Descripcion:
       "Boxer de algodón elástico que brinda comodidad durante todo el día.",
+    Stock: 55,
   },
   {
     id: 20,
@@ -175,6 +194,7 @@ const MisProdutos = [
     Imagen: "mochila.jpeg",
     Descripcion:
       "Mochila urbana con compartimentos múltiples, ideal para trabajo o estudio.",
+    Stock: 17,
   },
   {
     id: 21,
@@ -183,6 +203,7 @@ const MisProdutos = [
     Categoria: "Abrigos",
     Imagen: "campera_cuero.jpeg",
     Descripcion: "Campera de cuero estilo biker, canchera y duradera.",
+    Stock: 8,
   },
   {
     id: 22,
@@ -192,6 +213,7 @@ const MisProdutos = [
     Imagen: "zapatilla_deportiva.jpeg",
     Descripcion:
       "Zapatillas deportivas con buena amortiguación para entrenamientos intensos.",
+    Stock: 23,
   },
   {
     id: 23,
@@ -200,6 +222,7 @@ const MisProdutos = [
     Categoria: "Ropa",
     Imagen: "camisa_cuadros.jpeg",
     Descripcion: "Camisa casual a cuadros ideal para salidas informales.",
+    Stock: 26,
   },
   {
     id: 24,
@@ -208,6 +231,7 @@ const MisProdutos = [
     Categoria: "Accesorios",
     Imagen: "guantes.jpeg",
     Descripcion: "Guantes térmicos suaves ideales para invierno.",
+    Stock: 38,
   },
   {
     id: 25,
@@ -217,6 +241,7 @@ const MisProdutos = [
     Imagen: "trekking.jpeg",
     Descripcion:
       "Zapatillas de trekking resistentes para actividades al aire libre.",
+    Stock: 9,
   },
   {
     id: 26,
@@ -225,6 +250,7 @@ const MisProdutos = [
     Categoria: "Abrigos",
     Imagen: "rompeviento.jpeg",
     Descripcion: "Rompeviento liviano perfecto para días ventosos.",
+    Stock: 21,
   },
   {
     id: 27,
@@ -233,6 +259,7 @@ const MisProdutos = [
     Categoria: "Accesorios",
     Imagen: "corbata.jpeg",
     Descripcion: "Corbata elegante ideal para eventos formales.",
+    Stock: 33,
   },
   {
     id: 28,
@@ -241,6 +268,7 @@ const MisProdutos = [
     Categoria: "Ropa",
     Imagen: "traje.jpeg",
     Descripcion: "Traje de dos piezas ideal para ocasiones especiales.",
+    Stock: 6,
   },
   {
     id: 29,
@@ -249,6 +277,7 @@ const MisProdutos = [
     Categoria: "Calzado",
     Imagen: "ojotas.jpeg",
     Descripcion: "Ojotas livianas perfectas para verano o pileta.",
+    Stock: 50,
   },
   {
     id: 30,
@@ -257,6 +286,7 @@ const MisProdutos = [
     Categoria: "Accesorios",
     Imagen: "lentes.jpeg",
     Descripcion: "Lentes de sol polarizados estilo moderno.",
+    Stock: 44,
   },
 ];
 
