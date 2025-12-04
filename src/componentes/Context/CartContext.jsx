@@ -37,6 +37,21 @@ const CartProvider = ({ children }) => {
     const producto = cart.find((item) => item.id === id);
     return producto ? producto.Cantidad : 0;
   };
+  const incrementar = (id) => {
+    setCart((prev) =>
+      prev.map((item) =>
+        item.id === id ? { ...item, Cantidad: item.Cantidad + 1 } : item
+      )
+    );
+  };
+
+  const decrementar = (id) => {
+    setCart((prev) =>
+      prev.map((item) =>
+        item.id === id ? { ...item, Cantidad: item.Cantidad - 1 } : item
+      )
+    );
+  };
 
   const valores = {
     AddCarrito,
@@ -46,6 +61,8 @@ const CartProvider = ({ children }) => {
     cantidadCarrito,
     eliminarProducto,
     unidadesCompradas,
+    incrementar,
+    decrementar,
   };
 
   return <Provider value={valores}>{children}</Provider>;

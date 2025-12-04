@@ -8,6 +8,8 @@ const CartDetail = () => {
     vaciarCarrito,
     cantidadCarrito,
     eliminarProducto,
+    incrementar,
+    decrementar,
   } = useContext(CartContext);
   if (!cart || cart.length === 0) {
     return <p>No hay productos en el carrito.</p>;
@@ -24,7 +26,21 @@ const CartDetail = () => {
           />
 
           <div>{item.Nombre}</div>
-          <div>Cantidad: {item.Cantidad}</div>
+          <div>
+            <button
+              onClick={() => incrementar(item.id)}
+              disabled={item.Cantidad >= item.Stock}
+            >
+              {item.Stock === item.Cantidad ? "LIMITE STOCK" : "+"}
+            </button>
+            <div>Cantidad: {item.Cantidad}</div>
+            <button
+              onClick={() => decrementar(item.id)}
+              disabled={item.Cantidad <= 0}
+            >
+              -
+            </button>
+          </div>
           <div>Precio: ${item.Precio}</div>
           <div>Subtotal: ${item.Precio * item.Cantidad}</div>
           <button onClick={() => eliminarProducto(item.id)}>
